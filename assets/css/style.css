@@ -1,0 +1,83 @@
+.Crystal-img 
+{
+  width: 150px;
+  height: 150px;
+}
+
+body 
+{
+	
+  background-image: url("../images/crystals_background.jpeg");
+  margin-left: 50px;
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+#title
+{
+  background: teal;
+  text-align: center;
+  color: white;
+}
+
+.Crystals
+{
+	float: left;
+	margin-right: 20px;
+	
+}
+#randomNumberDiv
+{
+  background: lightgray;
+}
+
+#winLoseDiv
+{
+  background: lightgray;
+}
+
+#scoreDiv
+{
+  background: lightgray;
+}
+#gameInstructions
+{
+  color: black;
+  margin: 10px;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.crystalValues
+{
+  
+	float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+	border-style: solid;
+	border-width: 0.5px;
+  border-color: grey;
+  background: lightgrey;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+}
+
+footer
+{
+  height: 40px;
+  background: teal;
+  color: white;
+  margin-left: 0px;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.footerDiv
+{
+  border: 50px;
+  padding: 1px;
+}
+
+
+
