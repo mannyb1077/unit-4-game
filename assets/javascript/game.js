@@ -68,7 +68,7 @@ function DisplayAlert()
     alert(paragraph);
  }
 
-$("#Crystal1").on ('click', function()
+$("#Crystal1, #crystal1Value").on ('click', function()
 {
     score = score + Crystal1;
     // console.log("This is Crystal1");
@@ -87,7 +87,7 @@ $("#Crystal1").on ('click', function()
         }   
 });  
 
-$("#Crystal2").on ('click', function()
+$("#Crystal2, #crystal2Value").on ('click', function()
 {
     score = score + Crystal2;
     // console.log("This is Crystal2");
@@ -105,7 +105,7 @@ $("#Crystal2").on ('click', function()
         }   
 });  
 
-$("#Crystal3").on ('click', function()
+$("#Crystal3, #crystal3Value").on ('click', function()
 {
     score = score + Crystal3;
     // console.log("This is Crystal3");
@@ -123,7 +123,7 @@ $("#Crystal3").on ('click', function()
         }   
 });  
 
-$("#Crystal4").on ('click', function()
+$("#Crystal4, #crystal4Value").on ('click', function()
 {
     score = score + Crystal4;
     // console.log(score);
@@ -140,6 +140,7 @@ $("#Crystal4").on ('click', function()
           lose();
         }   
 });  
+
 
 $("#gameInstructions").on ('click', function()
 {    
