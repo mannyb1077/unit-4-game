@@ -49,7 +49,7 @@ function resetValues()
     $("#crystal4ValueDisplay").text(" "); 
 }
 
-function DisplayAlert() 
+function displayAlert() 
 {
     var newParagraph = "\r\n"
     var paragraph = "You will be given a random number at the start of the game.."
@@ -144,7 +144,7 @@ $("#Crystal4, #crystal4Value").on ('click', function()
 
 $("#gameInstructions").on ('click', function()
 {    
-    DisplayAlert(); 
+    displayAlert(); 
 });  
 
 $("#winCounter").html(wins);
